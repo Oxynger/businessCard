@@ -1,0 +1,81 @@
+$darkBackground: #3C4447;
+$lightBackground: #979CA2;
+$textColor: #F3F4ED;
+$idkColor: #94778E;
+$pathColor: #8A5864;
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+}
+
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: .6rem;
+    }
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: $lightBackground;
+    color: $textColor
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+    background-color: $idkColor;
+    
+    .greeter {
+        h1 {
+            font-size: 2.5rem;
+            word-wrap: break-word;
+            text-shadow: 0 0 .3rem $pathColor;
+        }
+        
+        h1:before {
+            content: "root:/$ ";
+            color: $pathColor;
+        }
+        
+        h1:after {
+            content: "█";
+            color: $pathColor;
+            animation: blinker 1s infinite;
+        }
+    }
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.cv {
+    @include border-radius(10px);
+    background-color: $darkBackground;
+    white-space: pre-wrap;
+    padding: 3rem 25vw;
+    font-size: 1.5rem;
+    text-shadow: 0 0 .3rem $textColor;
+    box-shadow: 0 5px 1rem $darkBackground;
+}
+
+@keyframes blinker {
+	0% {opacity: 0}
+	49%{opacity: 0}
+	50% {opacity: 1}
+  }
