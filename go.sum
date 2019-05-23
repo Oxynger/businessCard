@@ -1,0 +1,8 @@
+github.com/gopherjs/gopherjs v0.0.0-20181103185306-d547d1d9531e h1:JKmoR8x90Iww1ks85zJ1lfDGgIiMDuIptTOhJq+zKyg=
+github.com/gopherjs/gopherjs v0.0.0-20181103185306-d547d1d9531e/go.mod h1:wJfORRmW1u3UXTncJ5qlYoELFm8eSnnEO6hX4iZ3EWY=
+github.com/gopherjs/vecty v0.0.0-20190121081546-d00da0c86b42 h1:LlU+AwUtJDx5tjLzvwHHUzQ2py+jWpvDX8K4rEvCoCA=
+github.com/gopherjs/vecty v0.0.0-20190121081546-d00da0c86b42/go.mod h1:cCfq26X9MMEw/ZgZRpDDNSWfC7CO/u2ba/nGpjEVM/o=
+honnef.co/go/js/util v0.0.0-20150216223935-96b8dd9d1621 h1:QBApQyt1KyR3SvDWU8sHcIXeWTSCUamO7xQopvwuLWI=
+honnef.co/go/js/util v0.0.0-20150216223935-96b8dd9d1621/go.mod h1:WrAIh8rWfzvMdLVgQ7vpu7aYbDAZ3rHLxydzv2VkL/w=
+honnef.co/go/js/xhr v0.0.0-20150307031022-00e3346113ae h1:2dIKMawnBWvHzZrS8STyu/KdhYIOpnKQpp1WZm+K7TE=
+honnef.co/go/js/xhr v0.0.0-20150307031022-00e3346113ae/go.mod h1:QwoYXdHZpuR080H32s5jqyk7zh/k/U9bDFg2g8OMmOM=
