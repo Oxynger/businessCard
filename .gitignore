@@ -11,11 +11,7 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
  
-<<<<<<< HEAD
 *.css*
 
 /.vscode
 /.sass-cache
-=======
-*.css*
->>>>>>> 46547a87b5d96d136c44fccaff2aae8a8046c239

@@ -12,7 +12,7 @@ type App struct {
 func (c *App) Render() vecty.ComponentOrHTML {
 	return elem.Body(
 		&Header{
-			Title: "cat oxynger",
+			Title: "cat cv",
 		},
 		&Page{
 			Content: &CV{},
